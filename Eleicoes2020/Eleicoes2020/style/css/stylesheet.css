@@ -1,0 +1,27 @@
+.scrollspySite {
+  position: relative;
+  overflow: auto;
+  height: 380px;
+}
+
+.nav-pills .nav-link.active {
+  color: #ffffff;
+  background-color: #a90010;
+}
+
+.nav-pills a {
+  color: #ffffff;
+  background-color: #dc3545;
+}
+
+.nav-pills a:hover {
+  color: #000000;
+  background-color: #dc3545;
+}
+
+.line{
+	border-top: 1px solid #d3d3d3;
+}
+
+
+/*# sourceMappingURL=stylesheet.css.map */
