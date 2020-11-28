@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="style/css/bootstrap.css">
+  <link rel="stylesheet" href="style/css/stylesheet.css">
+  <link rel="stylesheet" href="style/css/fontawesome.css">
+  <link rel="stylesheet" href="style/css/brands.css">
+  <link rel="stylesheet" href="style/css/solid.css"> 
+
+  <title>PESQUISA ELEITORAL</title>
+
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-gradient-danger">
+    <div class="container">
+      <a class="navbar-brand h1 mb-0 text-white" href="#"> ELEIÇÕES 2020 </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+        <span class="navbar-toggler-icon"> </span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSite">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="index.html">
+              INÍCIO
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white" href="candidatos.html">
+              CANDIDATOS
+            </a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" data-toggle="dropdown" id="navDrop">
+              <span class="fas fa-share-alt text-white"></span> REDES SOCIAIS
+            </a>
+
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="https://www.facebook.com/TSEJus/" target=”_blank”>
+                FACEBOOK
+              </a>
+              <a class="dropdown-item" href="https://www.instagram.com/tsejus/?hl=pt-br" target=”_blank”>
+                INSTAGRAM
+              </a>
+              <a class="dropdown-item"
+                href="https://twitter.com/TSEjusbr?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                target=”_blank”>
+                TWITTER
+              </a>
+            </div>
+          </li>
+        </ul>
+
+        <img src="img-slide/justica.png" class="img-fluid d-block"
+          alt="imagem que representa o logo da justiça do brasil">
+
+        <!--<form class="form-inline">
+            <input class="form-control ml-3" type="search" placeholder="Buscar candidato">
+            <button class="btn btn-dark" type="Submit"> IR </button>
+          </form>-->
+      </div>
+    </div>
+  </nav>
+</head>
+
+<body>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1 class="display-4"></i> PESQUISA DE CANDIDATOS </h1>
+          <p class="lead"> Saiba mais sobre os candidatos que estão participando dessa eleição, vote consciente!
+            #votoconsciente #eleições2020<br></p>
+          <hr>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <ul class="nav nav-pills justify-content-center mb-3" id="pills-nav" role="tablist">
+            <li class="nav-item" style="margin-right: 20px;">
+              <label for="inputEstado" class="mb-1 text-danger"> Selecione o estado </label>
+              <select id="inputEstado" class="form-control mb-2" name="estado" placeholder="Estado">
+                <option selected="inputEstado"> Estado </option>
+                <option>Roraima - RR</option>
+                <option>Santa Catarina - SC</option>
+                <option>São Paulo - SP</option>
+                <option>Sergipe - SE</option>
+                <option>Tocantins - TO</option>
+              </select>
+            </li>
+
+            <li class="nav-item" style="margin-right: 20px;">
+              <label for="inputPartido" class="mb-1 text-danger"> Selecione o partido </label>
+              <select id="inputPartido" class="form-control mb-2" name="partido" placeholder="Partido"
+                style="padding: 0 115px 0 10px;">
+                <option selected="Partido"> Partido </option>
+                <option>AVANTE</option>
+                <option>PDT</option>
+                <option>PT</option>
+                <option>PSDB</option>
+                <option>PODE</option>
+              </select>
+            </li>
+
+            <li class="nav-item" style="margin-right: 20px;">
+              <label for="inputCargo" class="mb-1 text-danger">Selecione o cargo </label>
+              <select id="inputCargo" class="form-control mb-2" name="cargo" placeholder="Cargo"
+                style="padding: 0 105px 0 10px;">
+                <option selected="Cargo"> Cargo eleitoral </option>
+                <option>PREFEITO</option>
+                <option>VEREADOR</option>
+              </select>
+            </li>
+          </ul>
+
+          <div class="row">
+            <div class="col-sm-12">
+
+              <ul class="list-group list-group-flush">
+                <a href="candidato1.html" class="text-danger" id="SP" style="text-decoration: none;">
+                  <li class="list-group-item">Luiz Claudio dos Santos - PT - vereador</li>
+                </a>
+                <div class="line"></div>
+                <a href="candidato2.html" class="text-danger" style="text-decoration: none;">
+                  <li class="list-group-item">Amanda Felix Silva - PSDB - vereadora</li>
+                </a>
+                <div class="line"></div>
+                <a href="candidato3.html" class="text-danger" style="text-decoration: none;">
+                  <li class="list-group-item">Claudia Andrade Amorim - PODE - vereadora</li>
+                </a>
+                <div class="line"></div>
+                <a href="candidato4.html" class="text-danger" style="text-decoration: none;">
+                  <li class="list-group-item">Felipe Chaves da Silva - AVANTE - prefeito</li>
+                </a>
+                <div class="line"></div>
+                <a href="candidato5.html" class="text-danger" style="text-decoration: none;">
+                  <li class="list-group-item">Otávio Trindade Torres - PDT - prefeito </li>
+                </a>
+                <div class="line"></div>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+</body>
+
+</html>
